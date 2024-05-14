@@ -1,8 +1,19 @@
-# React + Vite
+# Restaurante React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Los Pollos Hermanos](https://github.com/Mcarrascot/restaurante/blob/main/public/img/logo.png)
 
-Currently, two official plugins are available:
+# Sobre el proyecto
+En este proyecto se construyó una app restaurante utilizando react, vite, bootstrap, html y css.
+Para mi aplicación de restaurante decidí crear una website para el restaurante Los Pollos Hermanos basado en el programa de televisión Breaking Bad.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Utilizamos  los siguientes componentes:
+* [Vite](https://vitejs.dev/)
+* [React](https://es.react.dev/)
+* HTML
+* CSS
+* Bootstrap
+
+
+
+## Integrantes
+- [Montserrat Carrasco](https://github.com/Mcarrascot)
