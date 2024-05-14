@@ -14,7 +14,7 @@ const HeroSection = () => {
             placeItems: 'center',
             alignContent: 'center',
       }} >
-        <Image src="src\assets\logo.png" fluid height={500}/>
+        <Image src="public\assets\logo.png" fluid height={500}/>
 
         <Button size='lg' style={{
             marginTop: '20px'
