@@ -13,7 +13,7 @@ const SobreNosotrosSeccion = () => {
 
                 <Row className="align-items-center pb-3" >
                     <Col md={6}>
-                        <Image fluid rounded src="public\assets\about.png" alt="About Us Image" style={{
+                        <Image fluid rounded src="assets\about.png" alt="About Us Image" style={{
                             boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'
                         }} />
                     </Col>
