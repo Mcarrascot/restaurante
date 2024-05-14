@@ -3,7 +3,7 @@ import { Container, Button, Image } from 'react-bootstrap';
 const HeroSection = () => {
   return (
     <section id='home' className="bg-primary text-white py-5" style={{
-        background: 'linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url(src/assets/background-cover.png) center / cover no-repeat fixed',
+        background: 'linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url(public/assets/background-cover.png) center / cover no-repeat fixed',
         marginTop: 'auto',
         height: '100vh',
       }}>
