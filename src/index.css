@@ -13,56 +13,86 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+.navbar-custom {
+  background-color: #38000e !important;
 }
 
-body {
-  margin: 0;
+
+/*Contacto*/
+.contáctanos .info-item {
+  background: #fff;
+  padding: 30px;
+  height: 100%;
+}
+
+.contáctanos .info-item .icon {
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  font-size: 24px;
+  line-height: 0;
+  color: #fff;
+  background: #c01934;
+  border-radius: 50%;
+  margin-right: 15px;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.contáctanos .info-item h3 {
+  font-size: 20px;
+  color: #6c757d;
+  font-weight: 700;
+  margin: 0 0 5px 0;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+.contáctanos .info-item p {
+  padding: 0;
+  margin: 0;
+  line-height: 24px;
+  font-size: 14px;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.contáctanos .info-item .social-links a {
+  font-size: 24px;
+  display: inline-block;
+  color: rgba(55, 55, 63, 0.7);
+  line-height: 1;
+  margin: 4px 6px 0 0;
+  transition: 0.3s;
+}
+
+.contáctanos .info-item .social-links a:hover {
+  color: var(--color-primary);
+}
+
+.contáctanos .email-form {
+  width: 100%;
+  margin-top: 30px;
+  background: #fff;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.08);
+}
+
+.contáctanos .email-form .form-group {
+  padding-bottom: 20px;
+}
+
+.contáctanos .email-form input,
+.contáctanos .email-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+}
+
+.contáctanos .email-form input:focus,
+.contáctanos .email-form textarea:focus {
+  border-color: var(--color-primary);
+}
+
+.contáctanos .email-form input {
+  height: 48px;
+}
+
+.contáctanos .email-form textarea {
+  padding: 10px 12px;
 }
