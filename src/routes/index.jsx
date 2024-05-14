@@ -5,7 +5,7 @@ import Home from "../pages/home";
 
 export const Routes = createBrowserRouter([
   {
-    path: "/restaurane/",
+    path: "/restaurante/",
     element: <Home />,
   },
 ]);
